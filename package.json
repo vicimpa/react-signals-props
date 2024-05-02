@@ -1,9 +1,16 @@
 {
-  "name": "react-signals-props",
+  "name": "@vicimpa/rsp",
   "version": "0.0.1",
-  "description": "",
+  "description": "A small layer between react and @preact/signals-react that allows you to use signals for attributes of native elements and bind some input and textarea properties to signals.",
+  "type": "module",
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "build": "tsc"
+  },
+  "repository": {
+    "url": "https://github.com/vicimpa/react-signals-props"
   },
   "keywords": [
     "react",
@@ -15,9 +22,9 @@
     "textarea",
     "vmodel"
   ],
-  "author": "",
-  "license": "ISC",
-  "peerDependencies": {
+  "author": "PromiSe#### (vicimpa@ya.ru)",
+  "license": "MIT",
+  "dependencies": {
     "@preact/signals-react": "^2.0.1"
   },
   "devDependencies": {
