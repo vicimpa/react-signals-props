@@ -1,6 +1,6 @@
 {
   "name": "@vicimpa/rsp",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A small layer between react and @preact/signals-react that allows you to use signals for attributes of native elements and bind some input and textarea properties to signals.",
   "type": "module",
   "publishConfig": {
